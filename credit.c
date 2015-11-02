@@ -17,5 +17,8 @@ int main(void)
     // initialize value to 0
     int value = 0;
     
+    // initialize cardLength to number of loops needed
+    int cardLength = card / 2;
+    
     printf("The value is: %i\n", value);
 }
