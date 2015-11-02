@@ -22,6 +22,9 @@ int main(void)
     
     // initialize cardCopy as card
     long long cardCopy = card;
+
+    // declare boolean valid
+    bool valid;
     
     // loop through card numbers
     for(int i = 0; i < cardLength; i++)
@@ -60,9 +63,6 @@ int main(void)
         // remove 2 last digits of card number for next loop
         cardCopy /= 100;
     }
-    
-    // declare boolean valid
-    bool valid;
     
     // check if input is valid
     if (value % 10 == 0)
