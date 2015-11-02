@@ -25,6 +25,8 @@ int main(void)
     {
         // initialize n as second-to-last card number
         int n = (card / 10) % 10;
+        // add this number * 2 to value
+        value += n * 2;
     }
     printf("The value is: %i\n", value);
 }
