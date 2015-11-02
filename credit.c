@@ -18,7 +18,7 @@ int main(void)
     int value = 0;
     
     // initialize cardLength to number of loops needed
-    int cardLength = card / 2;
+    int cardLength = 16 / 2;
     
     // loop through card numbers
     for(int i = 0; i < cardLength; i++)
