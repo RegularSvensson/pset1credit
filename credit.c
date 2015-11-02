@@ -11,4 +11,6 @@ int main(void)
     // initialize number as user input
     long long number = GetLongLong();
     
+    // print number to user
+    printf("You chose: %lli\n", number);
 }
