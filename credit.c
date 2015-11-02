@@ -11,9 +11,6 @@ int main(void)
     // initialize number as user input
     long long card = GetLongLong();
     
-    // print number to user
-    printf("You chose: %lli\n", card);
-    
     // initialize value to 0
     int value = 0;
     
@@ -76,9 +73,6 @@ int main(void)
     {
         valid = false;
     }
-
-    // print resulting value
-    printf("The value is: %i\n", value);
     
     // print card type or invalid
     if (valid)
