@@ -20,6 +20,9 @@ int main(void)
     // initialize cardLength to number of loops needed
     int cardLength = 16 / 2;
     
+    // initialize cardNumber as card
+    long long cardNumber = card;
+    
     // initialize cardCopy as card
     long long cardCopy = card;
     
