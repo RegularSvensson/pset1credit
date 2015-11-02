@@ -64,6 +64,15 @@ int main(void)
     // declare boolean valid
     bool valid;
     
+    // check if input is valid
+    if (value % 10 == 0)
+    {
+        valid = true;
+    }
+    else 
+    {
+        valid = false;
+    }
 
     // print resulting value
     printf("The value is: %i\n", value);
