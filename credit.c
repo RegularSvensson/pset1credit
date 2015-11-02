@@ -29,6 +29,18 @@ int main(void)
         // multiply number by 2
         int n2 = n * 2;
         
+        // add digits to value
+        if (n2 < 10)
+        {
+            value += n2;
+        }
+        else
+        {
+            int firstDigit = n2 / 10;
+            int lastDigit = n2 % 10;
+            value += firstDigit + lastDigit;
+        }
+        
         // remove 2 last digits of card number for next loop
         card /= 100;
     }
