@@ -80,10 +80,21 @@ int main(void)
     // print resulting value
     printf("The value is: %i\n", value);
     
-    // print if input is valid or not
+    // print card type or invalid
     if (valid)
     {
-        printf("VALID\n");
+        if (cardNumber / 10000000000000 == 34 || cardNumber / 10000000000000 == 37)
+        {
+            printf("AMEX\n");
+        }
+        if (cardNumber / 100000000000000 >= 51 && cardNumber / 100000000000000 <= 55)
+        {
+            printf("MSCD\n");
+        }
+        if (cardNumber / 1000000000000 == 4 || cardNumber / 1000000000000000 == 4)
+        {
+            printf("VISA\n");
+        }
     }
     else
     {
