@@ -9,8 +9,8 @@ int main(void)
     printf("Number: ");
     
     // initialize number as user input
-    long long number = GetLongLong();
+    long long card = GetLongLong();
     
     // print number to user
-    printf("You chose: %lli\n", number);
+    printf("You chose: %lli\n", card);
 }
