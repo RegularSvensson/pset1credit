@@ -30,17 +30,17 @@ int main(void)
         int n = (card / 10) % 10;
         
         // multiply number by 2
-        int n2 = n * 2;
+        int nDouble = n * 2;
         
         // add digits to value
-        if (n2 < 10)
+        if (nDouble < 10)
         {
-            value += n2;
+            value += nDouble;
         }
         else
         {
-            int firstDigit = n2 / 10;
-            int lastDigit = n2 % 10;
+            int firstDigit = nDouble / 10;
+            int lastDigit = nDouble % 10;
             value += firstDigit + lastDigit;
         }
         
