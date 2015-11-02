@@ -25,6 +25,10 @@ int main(void)
     {
         // initialize n as second-to-last card number
         int n = (card / 10) % 10;
+        
+        // multiply number by 2
+        int n2 = n * 2;
+        
         // remove 2 last digits of card number for next loop
         card /= 100;
     }
