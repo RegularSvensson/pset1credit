@@ -47,7 +47,19 @@ int main(void)
         // remove 2 last digits of card number for next loop
         card /= 100;
     }
-
+    
+    // loop through card numbers
+    for (int i = 0; i < cardLength; i++)
+    {
+        // initialize n as last card number
+        int n = cardCopy % 10;
+        
+        // add digits to value
+        value += n;
+        
+        // remove 2 last digits of card number for next loop
+        cardCopy /= 100;
+    }
 
     // print resulting value
     printf("The value is: %i\n", value);
