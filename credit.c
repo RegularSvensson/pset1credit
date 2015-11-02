@@ -30,5 +30,7 @@ int main(void)
         // remove 2 last digits of card number for next loop
         card /= 100;
     }
+    
+    // print resulting value
     printf("The value is: %i\n", value);
 }
