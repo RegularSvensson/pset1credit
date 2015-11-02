@@ -5,5 +5,12 @@
 
 int main(void)
 {
-    printf("hello, world!\n");
+    // print prompt to user
+    printf("Number: ");
+    
+    // initialize number as user input
+    long long number = GetLongLong();
+    
+    // print number to user
+    printf("You chose: %lli\n", number);
 }
