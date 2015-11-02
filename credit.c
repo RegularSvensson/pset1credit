@@ -77,15 +77,15 @@ int main(void)
     // print card type or invalid
     if (valid)
     {
-        if (cardNumber / 10000000000000 == 34 || cardNumber / 10000000000000 == 37)
+        if (cardNumber / pow(10, 13) == 34 || cardNumber / pow(10, 13) == 37)
         {
             printf("AMEX\n");
         }
-        if (cardNumber / 100000000000000 >= 51 && cardNumber / 100000000000000 <= 55)
+        if (cardNumber / pow(10, 14) >= 51 && cardNumber / pow(10, 14) <= 55)
         {
-            printf("MSCD\n");
+            printf("MASTERCARD\n");
         }
-        if (cardNumber / 1000000000000 == 4 || cardNumber / 1000000000000000 == 4)
+        if (cardNumber / pow(10, 12) == 4 || cardNumber / pow(10, 15) == 4)
         {
             printf("VISA\n");
         }
