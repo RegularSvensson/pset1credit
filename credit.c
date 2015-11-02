@@ -1,3 +1,4 @@
+// v1. check50 :) (OBS! Style :| ) 
 // include libraries
 #include <stdio.h>
 #include <cs50.h>
