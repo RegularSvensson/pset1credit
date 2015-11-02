@@ -27,6 +27,8 @@ int main(void)
         int n = (card / 10) % 10;
         // add this number * 2 to value
         value += n * 2;
+        // remove 2 last digits of card number for next loop
+        card /= 100;
     }
     printf("The value is: %i\n", value);
 }
