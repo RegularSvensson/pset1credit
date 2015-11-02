@@ -23,6 +23,8 @@ int main(void)
     // loop through card numbers
     for(int i = 0; i < cardLength; i++)
     {
+        // initialize n as second-to-last card number
+        int n = (card / 10) % 10;
     }
     printf("The value is: %i\n", value);
 }
