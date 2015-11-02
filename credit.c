@@ -60,6 +60,10 @@ int main(void)
         // remove 2 last digits of card number for next loop
         cardCopy /= 100;
     }
+    
+    // declare boolean valid
+    bool valid;
+    
 
     // print resulting value
     printf("The value is: %i\n", value);
