@@ -76,4 +76,15 @@ int main(void)
 
     // print resulting value
     printf("The value is: %i\n", value);
+    
+    // print if input is valid or not
+    if (valid)
+    {
+        printf("VALID\n");
+    }
+    else
+    {
+        printf("INVALID\n");
+    }
+    
 }
